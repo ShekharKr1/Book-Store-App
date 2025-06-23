@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Story Book",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 50,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Adventures",
+    "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 20,
+    "category": "entertainment",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Science Secrets",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 80,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Mystery",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "adventure",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Coding 101",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 150,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Art ",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "creative",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 7,
+    "title": " Earth History",
+    "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 90,
+    "category": "education",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Space Explorer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "science",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Jungle",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 75,
+    "category": "entertainment",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Fantasy World",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "price": 0,
+    "category": "fantasy",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+  }
+]
