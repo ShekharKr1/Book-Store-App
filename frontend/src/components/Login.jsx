@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { useForm } from "react-hook-form"
+import axios from 'axios';
+import toast from 'react-hot-toast';
 function Login() {
     const {
     register,
@@ -9,7 +11,28 @@ function Login() {
     formState: { errors },
   } = useForm()
 
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = async (data) => {
+    const userInfo={
+      email: data.email,
+      password:data.password
+    };
+    console.log(userInfo);
+     try{
+        const res= await axios.post("http://localhost:8000/user/login",userInfo)
+      console.log(res.data); // This should work now
+       
+        localStorage.setItem("user",JSON.stringify(res.data.userdata));
+       toast.success('Loggedin Successfully ');
+        document.getElementById("my_modal_3").close();
+        //window.location.reload();
+        
+     } catch(err){
+      console.log(err);
+      toast.error("login failed"+ err.response.data.message);
+      
+      
+     }
+  }
     return (
         <>
             <div className=''>
@@ -17,7 +40,7 @@ function Login() {
                     <div className="modal-box dark:bg-slate-900 dark:text-white">
                         <form onSubmit={handleSubmit(onSubmit)} method="dialog">
                             {/* if there is a button in form, it will close the modal */}
-                            <NavLink to='/' className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</NavLink>
+                            <NavLink to='/' className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={()=> document.getElementById("my_modal_3").close()}>✕</NavLink>
                         
                        
                         <div className=' flex flex-col gap-4'>
